@@ -21,7 +21,7 @@ function App() {
       "logo": 'https://i.ibb.co/Mf9fwnv/gadget-wiz.gif',
       "description": 'Windows 95 Replica',
       "demo": 'https://player.vimeo.com/video/480358304',
-      "repo": '',
+      "repo": 'https://github.com/Mar5Planet/gadget-wiz',
       "framework": ['React', 'SCSS', 'React 95', 'Ruby on Rails', 'PostgreSQL'],
       "demoDesc": 'GadgetWiz is a React replica of a Windows 95 UI. The application, built with a Rails API, allows users to utilize the Desktop as their personal Dashboard. Users can create their own Gadgets (such as a text, image, or folder) and customize their dashboard to their needs.'
     },
@@ -31,7 +31,7 @@ function App() {
       "logo": 'https://i.ibb.co/KGy97RT/greenvy-logo.png',
       "description": 'Sustainability & Engagement',
       "demo": 'https://player.vimeo.com/video/480358554',
-      "repo": '',
+      "repo": 'https://github.com/Mar5Planet/Greenvy-Frontend/',
       "framework": ['React', 'Bootstrap', 'SCSS', 'Antd', 'Ruby on Rails', 'PostgreSQL'],
       "demoDesc": "Greenvy is an environmental, interactive platform built with a React frontend and a Ruby on Rails API backend. The application includes a custom-built Footprint calculator that utilizes different metrics that affect carbon emissions. Once a user is signed up, they will have the option to participate in community-based sustainability events. Once a user has participated in the event and the organizer of the event approves the user's attendance, they will earn engagement points which will increase their Greenvy Score. The application also includes various dashboard items customized to the user's carbon footprint and selected preferences. The purpose of the application is to increase environmental involvement with a social media and networking aspect."
     },
@@ -41,7 +41,7 @@ function App() {
       "logo": 'https://i.ibb.co/6sR2xvh/frontend-mentor1.png',
       "description": 'Responsive Design',
       "demo": 'https://player.vimeo.com/video/480357934',
-      "repo": '',
+      "repo": 'https://github.com/Mar5Planet/frontend-mentor/',
       "framework": ['Javascript', 'CSS', 'HTML', 'Bootstrap'],
       "demoDesc": "Frontend Mentor Design challenges are created to test a developer's responsive website design capabilities. The wireframe and application attributes are provided by the Frontend Mentor UI/UX team. The goal of the developer is to create a live version of the web-application wireframes. The purpose of this demo is to showcase my responsive and functional design skills. All applications are built with Vanilla Javascript, CSS, and HTML."
     },
