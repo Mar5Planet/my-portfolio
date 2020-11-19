@@ -420,3 +420,37 @@ polygon {
     right: 1vh;
   }
 }
+
+@media screen and (max-width: 400px) {
+  .header {
+    height: 110vh;
+  }
+  .header-info h1 {
+    margin-top: 20%;
+    margin-bottom: 10%;
+    font-size: 2rem !important;
+  }
+
+  .header-info h3 {
+    font-size: 1.2rem !important;
+    margin-bottom: 10%
+  }
+
+  .btn-arr {
+    font-size: 0.5rem !important;
+  }
+
+  .ant-card:hover {
+    transform: none;
+  }
+
+  .arrow-top {
+    display: none;
+  }
+
+  .arrow-bottom {
+    display: none;
+  }
+
+
+}
