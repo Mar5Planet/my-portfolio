@@ -423,7 +423,9 @@ polygon {
 
 @media screen and (max-width: 400px) {
   .header {
-    height: 110vh;
+    height: 100vh;
+    width: 95%;
+    margin: auto;
   }
   .header-info h1 {
     margin-top: 20%;
