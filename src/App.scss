@@ -222,6 +222,11 @@ polygon {
   margin: auto;
 }
 
+.Fitbud {
+  width: 70% !important;
+  margin: 10% auto;
+}
+
 .project-cards .col-lg-4 {
   margin-bottom: 5%;
   text-align: center;
@@ -376,6 +381,10 @@ polygon {
 
 // Responsive
 @media screen and (max-width: 1092px) {
+  .Fitbud {
+    width: 60% !important;
+    margin: 5% auto;
+  }
   .ant-card {
     width: 90% !important;
     height: 90% !important;
@@ -421,6 +430,19 @@ polygon {
   .modal-content {
     right: 1vh;
   }
+
+  .ant-card-cover img{
+    margin: 0 18%;
+    width: 65%;
+  }
+
+  .GadgetWiz {
+    width: 40vw !important;
+    padding: 10% !important;
+    margin: 0 !important;
+    
+  }
+
 }
 
 @media screen and (max-width: 400px) {
@@ -455,6 +477,4 @@ polygon {
   .arrow-bottom {
     display: none;
   }
-
-
 }
