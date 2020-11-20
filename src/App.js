@@ -51,7 +51,7 @@ function App() {
       "logo": 'https://i.ibb.co/16yjpvH/credifier.png',
       "description": 'News Review & Social Networking',
       "demo": 'https://player.vimeo.com/video/480357637',
-      "repo": '',
+      "repo": 'https://github.com/Mar5Planet/Credifier-frontend',
       "framework": ['Javscript', 'CSS', 'HTML', 'News API', 'Ruby on Rails'],
       "demoDesc": "Credifier is a collaborative accredited journalist community with the purpose of meditating fake news. The application, built with Javascript and Ruby on Rails, pulls in popular and recent articles from various news outlets utilizing the News API. The application allows accredited journalists to peer review the articles. The Credifier user has the capability to increment a review based on credibility. Each user has their crediability score that is dependant on the rating of their reviews."
     },
@@ -61,7 +61,7 @@ function App() {
       "logo": 'https://i.ibb.co/QN93pX6/groupie-logo.png',
       "description": 'Social Media & Music',
       "demo":  'https://player.vimeo.com/video/480359223',
-      "repo": '',
+      "repo": 'https://github.com/Mar5Planet/groupies-ruby-spotify-api',
       "framework": ['PostgreSQL', 'CSS', 'HTML', 'Ruby on Rails', 'Spotify API'],
       "demoDesc": 'Groupie is a Ruby on Rails backend application that utilizes the Spotify API. As a community-based platform, Groupie allows users to join and create various music genre groups, add music to the groups, and engage in musical discussion. Groupie songs are directly linked to Spotify, which allows users to favorite and add it to their Spotify playlists.'
     },
@@ -71,7 +71,7 @@ function App() {
     "logo": "https://i.ibb.co/SyPtRYm/FitBud-2.png",
     "description": "Diet & Lifestyle",
     "demo": "https://player.vimeo.com/video/480357764",
-    "repo": '',
+    "repo": 'https://github.com/Mar5Planet/ruby-CLI-edamam/tree/main',
     "framework": ['Ruby', 'Edamam API', 'PostgreSQL'],
     "demoDesc": "Fitbud is a full backend Ruby Command Line application that allows users to find recipes based on their dietary preferences, allergies, and BMR. The application calculates a user's BMR based on their information, prompts users to input their dietary preferences/allergies, and returns many meal recipes for the user."
   }, 
@@ -85,7 +85,7 @@ function App() {
     const timer = setTimeout(() => {
       console.log('This will run after 5 second!')
       setShowPage(true)
-    }, 2000);
+    }, 3000);
     return () => clearTimeout(timer);
   }, []);
 
