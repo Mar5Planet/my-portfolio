@@ -1,6 +1,7 @@
 import React from 'react';
 
-function TopSection() {
+function TopSection() {    
+    
     return (
         <section className="top-sec">
 

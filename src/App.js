@@ -8,13 +8,17 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import DemoMod from './components/DemoMod';
 import "react-loader-spinner/dist/loader/css/react-spinner-loader.css"
 import Load from '././components/Load';
+import { message } from 'antd';
 
 function App() {
   const[modal, setModal] = useState('')
   const [visibleMod] = useState(true)
   const [showPage, setShowPage] = useState(false)
+  const info = () => {
+    message.info('Click the logo in the top-left corner');
+  };
+  
   const projects = [
-    
     {
       "id": 3,
       "name": "GadgetWiz",
@@ -83,7 +87,7 @@ function App() {
 
   useEffect(() => {
     const timer = setTimeout(() => {
-      console.log('This will run after 5 second!')
+      info()
       setShowPage(true)
     }, 3000);
     return () => clearTimeout(timer);

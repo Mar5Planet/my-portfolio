@@ -10,7 +10,7 @@ function Header() {
             </span>
             <div className="header-info">
                 <h1 style={{color: 'white', fontFamily:'Montserrat', fontWeight: '600'}}> Mar Mustafa </h1>
-                <h3 style={{color: 'white'}}> Full Stack Engineer </h3>
+                <h3 style={{color: 'white'}}> Software Engineer </h3>
                 <a href="#projects">
                     <button className="btn-arr third">View Projects</button>
                 </a>
